@@ -1,0 +1,80 @@
+.homebg {
+    background-image: url('../images/lakeeee.jpeg');
+    background-position: top right;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global font styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #2c2c2c;
+    line-height: 1.6;
+}
+
+/* Header styling */
+.header {
+    background-color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main title section */
+.mainbody {
+    background-color: #fff8f0;
+    padding: 20px;
+    border-bottom: 3px solid #d77c7c;
+}
+
+/* Instruction list container */
+.list {
+    background-color: #ffffffcc;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid #444;
+}
+
+/* Style for ordered and unordered lists */
+ol {
+    padding-left: 25px;
+}
+ul {
+    margin-top: 10px;
+}
+
+/* List items */
+li {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/* Interactive link style */
+a {
+    color: #b30000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Utility classes */
+.bold {
+    font-weight: bold;
+    font-size: 24px;
+    color: #b22222;
+}
+.justify {
+    text-align: justify;
+}
+
+.video {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
